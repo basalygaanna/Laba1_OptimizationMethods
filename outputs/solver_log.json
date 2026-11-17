@@ -1,0 +1,173 @@
+[
+  {
+    "scenario": "Базовый",
+    "status": 0,
+    "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "success": true,
+    "capacities": [
+      2.6,
+      150.0,
+      20.0,
+      55.0
+    ],
+    "objective_solver": 308328.70848972944,
+    "production": [
+      0.0,
+      21.444248358401488,
+      0.0,
+      31.65844001110824,
+      0.0,
+      0.0
+    ],
+    "independent_check": {
+      "feasible": true,
+      "violations": [],
+      "resource_use": [
+        2.6000000000000005,
+        150.00000000000003,
+        12.711970903618237,
+        50.596719490454994
+      ],
+      "resource_slack": [
+        -4.440892098500626e-16,
+        -2.842170943040401e-14,
+        7.288029096381763,
+        4.403280509545006
+      ],
+      "total_output": 53.10268836950973,
+      "objective_recalculated": 308328.70848972944,
+      "max_resource_violation": 2.842170943040401e-14,
+      "tolerance": 1e-07
+    },
+    "resource_shadow_prices": [
+      93387.7307868027,
+      436.8040562936158,
+      0.0,
+      0.0
+    ],
+    "resource_slacks": [
+      0.0,
+      0.0,
+      7.288029096381763,
+      4.403280509545006
+    ],
+    "active_resources": [
+      "Древесина, м³",
+      "Трудозатраты, ч"
+    ]
+  },
+  {
+    "scenario": "Дефицитный: древесина −20%",
+    "status": 0,
+    "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "success": true,
+    "capacities": [
+      2.08,
+      150.0,
+      20.0,
+      55.0
+    ],
+    "objective_solver": 259767.08848059204,
+    "production": [
+      0.0,
+      31.399009218034745,
+      0.0,
+      13.770615162726537,
+      0.0,
+      0.0
+    ],
+    "independent_check": {
+      "feasible": true,
+      "violations": [],
+      "resource_use": [
+        2.0800000000000005,
+        150.00000000000003,
+        10.76028343889133,
+        54.7621044710604
+      ],
+      "resource_slack": [
+        -4.440892098500626e-16,
+        -2.842170943040401e-14,
+        9.23971656110867,
+        0.2378955289396032
+      ],
+      "total_output": 45.169624380761284,
+      "objective_recalculated": 259767.08848059204,
+      "max_resource_violation": 2.842170943040401e-14,
+      "tolerance": 1e-07
+    },
+    "resource_shadow_prices": [
+      93387.7307868027,
+      436.8040562936158,
+      0.0,
+      0.0
+    ],
+    "resource_slacks": [
+      0.0,
+      0.0,
+      9.23971656110867,
+      0.2378955289396032
+    ],
+    "active_resources": [
+      "Древесина, м³",
+      "Трудозатраты, ч"
+    ]
+  },
+  {
+    "scenario": "Стрессовый: древесина и труд −50%",
+    "status": 0,
+    "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "success": true,
+    "capacities": [
+      1.3,
+      75.0,
+      20.0,
+      55.0
+    ],
+    "objective_solver": 154164.35424486472,
+    "production": [
+      0.0,
+      10.722124179200744,
+      0.0,
+      15.82922000555412,
+      0.0,
+      0.0
+    ],
+    "independent_check": {
+      "feasible": true,
+      "violations": [],
+      "resource_use": [
+        1.3000000000000003,
+        75.00000000000001,
+        6.355985451809119,
+        25.298359745227497
+      ],
+      "resource_slack": [
+        -2.220446049250313e-16,
+        -1.4210854715202004e-14,
+        13.644014548190881,
+        29.701640254772503
+      ],
+      "total_output": 26.551344184754864,
+      "objective_recalculated": 154164.35424486472,
+      "max_resource_violation": 1.4210854715202004e-14,
+      "tolerance": 1e-07
+    },
+    "resource_shadow_prices": [
+      93387.7307868027,
+      436.8040562936158,
+      0.0,
+      0.0
+    ],
+    "resource_slacks": [
+      0.0,
+      0.0,
+      13.644014548190881,
+      29.701640254772503
+    ],
+    "active_resources": [
+      "Древесина, м³",
+      "Трудозатраты, ч"
+    ]
+  }
+]

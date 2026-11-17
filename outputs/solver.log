@@ -1,0 +1,28 @@
+ЛАБОРАТОРНАЯ РАБОТА №1 — ВАРИАНТ 18
+Seed: 10201
+Python: 3.10.0
+NumPy: 2.2.6; pandas: 2.3.3; SciPy: 1.15.3
+Solver: scipy.optimize.linprog(method='highs-ds', options={'presolve': True})
+
+[Базовый]
+Status: 0 — Optimization terminated successfully. (HiGHS Status 7: Optimal)
+Objective: 308328.708490
+Independent check feasible: True
+Recalculated objective: 308328.708490
+
+[Дефицитный: древесина −20%]
+Status: 0 — Optimization terminated successfully. (HiGHS Status 7: Optimal)
+Objective: 259767.088481
+Independent check feasible: True
+Recalculated objective: 259767.088481
+
+[Стрессовый: древесина и труд −50%]
+Status: 0 — Optimization terminated successfully. (HiGHS Status 7: Optimal)
+Objective: 154164.354245
+Independent check feasible: True
+Recalculated objective: 154164.354245
+
+[SENSITIVITY ANALYSIS]
+Optional assignment 4: objective coefficient stability ranges.
+Basic products: Стол, Полка
+Active resources: Древесина, м³, Трудозатраты, ч
